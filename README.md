@@ -14,6 +14,6 @@ Open `index.html` in a browser, or serve this directory with any static web serv
 
 Content follows the Android app’s README, Play listing, manifest, and local recent-file storage implementation: PDF-only, Android 7.0+, offline reading and annotation, no accounts or internet permission, up to 12 recent documents, and flattened separate-copy exports. Legal pages distinguish local app data from original/exported PDFs and hosting-provider records. Review legal text and hosting practices before publication.
 
-The palette uses the app’s emerald, dark surfaces, and muted text, with a light-green call to action inspired by its screenshots. All eight supplied `img/` images are displayed. DM Sans is self-hosted from the app; its license is in `fonts/OFL.txt`.
+The palette uses the app’s emerald, dark surfaces, and muted text, with a light-green call to action inspired by its screenshots. All eight supplied `img/` images are displayed. DM Sans is loaded through Google Fonts on all three pages; no local font files are used.
 
 JavaScript adds a mobile navigation toggle, screenshot gallery controls, and the current footer year. Content and links remain usable without JavaScript. Reduced-motion preferences and keyboard navigation are supported.
